@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'titulo';
+    src: url(fonts/libel-suit-rg.otf) format(opentype);
+}
+@font-face {
+    font-family: 'texto';
+    src: url(fonts/Louis\ George\ Cafe.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'subtitulo';
+    src: url(fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf) format(opentype);
+}
+
+
+body{
+    background-color: rgb(147, 138, 138);
+    background-image: linear-gradient(to bottom ,rgb(147, 138, 138), rgb(214, 213, 213)  );
+    background-attachment: fixed;
+    margin: 0%
+}
+header{
+
+
+    background-image: linear-gradient(to bottom,#00AACC,#3498ac, #01353e);
+    height: 250px;
+    border: 5px solid rgb(0, 0, 0);
+   
+
+}
+h1 {
+
+    font: normal 60px 'titulo', sans-serif;
+    margin: 0px;
+    text-align: center;
+    padding: 30px 1px 8px 1px;
+    text-shadow: -3px 14px 18px #383737
+    
+
+}
+#descrição {
+
+    font: normal 18px 'texto', sans-serif;
+    margin: 0px;
+    text-align: center;
+    padding: 5px 0px 27px 0px;
+    color: white;
+    text-shadow: 10px 10px 10px black;
+
+
+}
+nav > a {
+
+    font: normal 18px 'texto', sans-serif;
+    color: rgb(168, 169, 195);
+    padding: 7px 15px 7px 15px;
+    margin: auto;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.842) 3px -4px 11px; 
+    
+}
+nav > a:hover {
+
+    background-color: rgba(102, 102, 102, 0.405);
+    border-radius: 5px;
+    padding: 7px;
+
+}
+main {
+
+    background-color: white;
+    height: auto;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+#primeiro{
+    
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+#subtitulo {
+
+    font: normal 40px 'subtitulo', sans-serif;
+    background-image: linear-gradient(to right, rgba(32, 123, 251, 0.282), transparent);
+    margin: 0%;
+    margin-left: 20px;
+    margin-top: 10px;
+    min-width: 300px;
+    max-width: 1200px;
+    border-radius: 10px;
+    
+}
+#objetivo, #formação, #cursos, #habilidades, #projetos, #contato {
+
+    font: normal 35px 'subtitulo';
+    background-image: linear-gradient(to right, rgba(32, 123, 251, 0.282), transparent);
+    margin: 0%;
+    margin-left: 20px;
+    margin-top: 10px;
+    min-width: 300px;
+    max-width: 1200px;
+    border-radius: 10px;
+
+}
+.foto-perfil {
+
+    padding: 20px 0px 20px 10px;
+
+}
+p.perfil {
+
+    font: normal 17px 'texto';
+    padding-left: 20px;
+    padding-right: 40px;
+    text-align: justify;
+
+}
+.text {
+    
+    font: normal 17px 'texto';
+    padding: 20px 40px 20px 50px;
+    text-align: justify;
+    list-style-type: disc;
+    
+    
+}
+.alinhar-uni, .alinhar-cmc {
+
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    padding-top: 35px;
+    padding-bottom: 0%;
+    padding-bottom: 10px;
+    
+}
+.logo {
+
+    box-shadow: 10px -10px 20px #9191911f;
+    padding: 0px 0px 0px 0px;
+
+}
+.espaço {
+
+    padding-right: 30px;
+}
+.ano {
+
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0px;
+    text-decoration: underline;
+}
+.lista > li {
+
+
+    list-style-type: square;
+    padding-bottom: 12px;
+}
+
+.pad {
+
+    padding-bottom: 10px;
+}
+.text-projeto{
+
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0px;
+}
+.repositorio {
+
+    font-size: 18px;
+    margin: 0%;
+    color: #636363;
+    
+}
+.link {
+
+    text-decoration: none;
+    font-weight: bold;
+    color: #0029e2;
+}
+.link:hover {
+
+    text-decoration: underline;
+}
+#fundo-video {
+    height: 350px;
+    width: 650px;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 207),rgb(81, 112, 251), rgba(255, 255, 255, 0.582));
+    text-align: center;
+    margin: auto;
+    border: 5px solid black;
+}
+#video {
+
+    padding-top: 25px;
+    margin: auto;
+}
+.canal > li {
+
+    font: bold 20px 'texto';
+    padding-left: 0px;
+    padding-bottom: 10px;
+}
+.text-redes {
+
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 0px;
+}
+.redes-sociais > li {
+
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+.imagem {
+
+    padding-right: 7px;
+
+}
+.sem-linha {
+
+    color: #000000c4;
+    text-decoration: none;
+}
+.sem-linha:hover {
+
+    text-decoration: underline;
+}
+footer {
+    font: normal 16px 'texto';
+    color: white;
+    background-image: linear-gradient(to bottom,#00AACC,#3498ac, #01353e);
+    height: 45px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+    
+
+
+
+
+
+
+
