@@ -143,14 +143,15 @@ main {
 }
 .perfil {
 
-    font: normal 17px 'texto';
-    padding-left: 20px;
-    padding-right: 40px;
-    text-align: justify;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    font: normal 17px 'texto';
+    padding-left: 20px;
+    padding-right: 40px;
+    text-align: justify;
+    gap: 20px;
 
 }
 .text {
@@ -161,6 +162,14 @@ main {
     list-style-type: disc;
     
     
+}
+.flex {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
 }
 .alinhar-uni, .alinhar-cmc {
 
@@ -195,10 +204,26 @@ main {
     list-style-type: square;
     padding-bottom: 12px;
 }
+.text strong {
 
-.pad {
+    font-size: 20px;
+    margin-top: 50px;
+}
+.margin{
 
-    padding-bottom: 10px;
+    margin: 20px 0px;
+}
+.skills {
+
+    margin-top: 15px;
+}
+.skills li {
+
+    margin: 10px 30px ;
+}
+.title-skills {
+
+    font-size: 10px;
 }
 .text-projeto{
 
