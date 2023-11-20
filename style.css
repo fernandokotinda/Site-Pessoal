@@ -13,6 +13,12 @@
     src: url(fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf) format(opentype);
 }
 
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
 body{
     background-color: rgb(147, 138, 138);
@@ -24,31 +30,43 @@ header{
 
 
     background-image: linear-gradient(to bottom,#00AACC,#3498ac, #01353e);
-    height: 250px;
     border: 5px solid rgb(0, 0, 0);
    
 
 }
 h1 {
 
-    font: normal 60px 'titulo', sans-serif;
+    font: bold 60px 'titulo', sans-serif;
+    letter-spacing: 3px;
     margin: 0px;
     text-align: center;
     padding: 30px 1px 8px 1px;
-    text-shadow: -3px 14px 18px #383737
+    text-shadow: -3px 14px 18px #383737a2
     
 
 }
-#descrição {
+.cargo {
+
+    font: normal 24px 'texto', sans-serif;
+    text-align: center;
+    padding: 10px 0px 30px;
+    color: rgb(0, 63, 84);
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.56);
+    
+
+}
+#descrição {    
 
     font: normal 18px 'texto', sans-serif;
-    margin: 0px;
     text-align: center;
-    padding: 5px 0px 27px 0px;
     color: white;
-    text-shadow: 10px 10px 10px black;
+    text-shadow: 6px 5px 12px rgba(0, 0, 0, 0.632);
 
 
+}
+nav {
+
+    padding: 15px 10px;
 }
 nav > a {
 
@@ -56,15 +74,21 @@ nav > a {
     color: rgb(168, 169, 195);
     padding: 7px 15px 7px 15px;
     margin: auto;
+    transform: scale(1.1);
     text-decoration: none;
     text-shadow: rgba(0, 0, 0, 0.842) 3px -4px 11px; 
+    transition: .3s;
+    
+    
     
 }
 nav > a:hover {
 
     background-color: rgba(102, 102, 102, 0.405);
     border-radius: 5px;
-    padding: 7px;
+    transition: .3s;
+
+    
 
 }
 main {
@@ -117,12 +141,16 @@ main {
     padding: 20px 0px 20px 10px;
 
 }
-p.perfil {
+.perfil {
 
     font: normal 17px 'texto';
     padding-left: 20px;
     padding-right: 40px;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 
 }
 .text {
