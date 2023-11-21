@@ -64,6 +64,10 @@ h1 {
 
 
 }
+h2, h3 {
+
+    padding-left: 15px;
+}
 nav {
 
     padding: 15px 10px;
@@ -169,7 +173,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+    gap: 25px;
 }
 .alinhar-uni, .alinhar-cmc {
 
@@ -198,11 +202,11 @@ main {
     padding-left: 0px;
     text-decoration: underline;
 }
-.lista > li {
+.lista > div {
 
 
-    list-style-type: square;
     padding-bottom: 12px;
+    font-weight: normal;
 }
 .text strong {
 
@@ -225,12 +229,65 @@ main {
 
     font-size: 10px;
 }
-.text-projeto{
+.title {
 
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
-    padding-left: 0px;
+    margin-bottom: 70px;
+    
 }
+.flex-projeto p{
+
+    font: normal 18px 'texto';
+    padding: 0px 30px 20px;
+    text-align: justify;
+    
+
+}
+.flex-projeto .link {
+
+    padding-left: 5px;
+}
+.projects {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    margin: 30px 40px 20px 60px;
+
+
+}
+.projects img {
+
+    width: 450px;
+    height: 250px;
+    border: 2px solid black;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.521);
+    cursor: pointer;
+    transition: .5s ease;
+
+}
+.projects img:hover {
+    
+    transform: scale(1.05);
+    transition: .5s ease;
+}
+.flex-projeto {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+
+}
+.flex-projeto > h3 {
+
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
 .repositorio {
 
     font-size: 18px;
