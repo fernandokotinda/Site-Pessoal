@@ -233,7 +233,6 @@ main {
 
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 70px;
     
 }
 .flex-projeto p{
@@ -254,14 +253,14 @@ main {
     justify-content: flex-start;
     align-items: center;
     gap: 50px;
-    margin: 30px 40px 20px 60px;
+    margin: 80px 40px 20px 60px;
 
 
 }
 .projects img {
 
     width: 450px;
-    height: 250px;
+    height: 240px;
     border: 2px solid black;
     box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.521);
     cursor: pointer;
@@ -282,10 +281,16 @@ main {
     gap: 10px;
 
 }
-.flex-projeto > h3 {
+.flex-projeto  h3 {
 
     font-size: 25px;
     padding-bottom: 20px;
+}
+.flex-projeto span {
+
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 15px;
 }
 
 .repositorio {
