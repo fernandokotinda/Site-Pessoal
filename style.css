@@ -295,9 +295,9 @@ main {
 
 .repositorio {
 
-    font-size: 18px;
+    font-size: 20px;
     margin: 0%;
-    color: #636363;
+    color: rgb(111, 111, 138)   ;
     
 }
 .link {
@@ -310,18 +310,61 @@ main {
 
     text-decoration: underline;
 }
-#fundo-video {
-    height: 350px;
-    width: 650px;
-    background-image: linear-gradient(to bottom, rgb(0, 0, 207),rgb(81, 112, 251), rgba(255, 255, 255, 0.582));
-    text-align: center;
-    margin: auto;
-    border: 5px solid black;
-}
-#video {
+.courses {
 
-    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    margin: 0px 80px 40px 40px;
+}
+.img-curso {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.paragrafos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+
+
+
+}
+.paragrafos p {
+    
+    text-align: justify;
+    font-size: 18px;
+}
+.text > h3 {
+
+    font-size: 24px;
+    margin: 30px 0px;
+
+}
+.courses img {
+
+    width: 400px;
+    height: 250px;
+    border: 3px solid rgb(159, 159, 255);
+    box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.623);
+    transition: 1s ease;
+
+}
+.courses img:hover {
+
+    transition: 1s ease;
+    transform: scale(1.8);
     margin: auto;
+}
+.img-arquitetura img {
+
+    width: 350px;
 }
 .canal > li {
 
