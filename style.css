@@ -343,8 +343,6 @@ main {
     justify-content: center;
     gap: 20px;
 
-
-
 }
 .paragrafos p {
     
@@ -536,11 +534,13 @@ footer a:hover {
 
     display: flex;
     flex-direction: column;
+    
 }
 .flex-JS {
 
     display: flex;
-    gap: 30px;
+    gap: 40px;
+    margin-left: 45px;
 
 }
 
