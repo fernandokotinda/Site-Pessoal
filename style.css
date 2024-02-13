@@ -322,15 +322,18 @@ main {
 .img-onebitcode {
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
-    gap: 35px;
+    gap: 100px;
+
 }
+
 .courses .img-onebitcode img {
 
     width: 400px;
     height: 280px;
+    display: flex;
+    justify-content: space-between;
 }
 .paragrafos {
 
@@ -350,7 +353,7 @@ main {
 }
 .text-onebitcode {
 
-    gap: 50px;
+    gap: 20px;
     
 }
 .text > h3 {
@@ -528,6 +531,17 @@ footer a:hover {
 .popUpMessage {
 
     text-align: justify;
+}
+.onebitcode{
+
+    display: flex;
+    flex-direction: column;
+}
+.flex-JS {
+
+    display: flex;
+    gap: 30px;
+
 }
 
     
